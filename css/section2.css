@@ -5,6 +5,9 @@
 .section2_main{
     display: flex;
     flex-direction: row;
+    background: url('../images/seection2_bg.jpg') no-repeat center;
+    /* background-size: cover; */
+    
 }
 .section2_main img{
     position: relative;
@@ -40,5 +43,19 @@ line-height: 52px;
     /* font-weight: 500; */
     font-size: 3rem;
     font-weight: 500;
+}
+.section_row p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: small;
+}
+.section2_main::before{
+    content: "02";
+    position: absolute;
+    bottom: 8rem;
+    right: 8rem;
+    font-size: 12rem;
+    color: #e8f3efd2;
+    font-family: 'Noto Serif HK', serif;
 }
 
