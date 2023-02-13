@@ -106,7 +106,7 @@
   transform: translateY(115px);
   transition: transform .5s;
 }
-.section1::before{
+/* .section1::before{
   content: "01";
   position: absolute;
   bottom: 4rem;
@@ -114,4 +114,4 @@
   font-size: 12rem;
   color: #fbf7f7b5;
   font-family: 'Noto Serif HK', serif;
-}
+} */
