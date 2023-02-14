@@ -1,56 +1,78 @@
-.section3_main{
-    display: flex;
-    flex-direction: column;
+.section3_main {
+  display: flex;
+  flex-direction: column;
 }
-.section3_main h3{
-    display: flex;
-    justify-content: center;
-    padding: 5rem 0rem 2rem 0;
-    font-size: 2rem;
-    margin-top: 3rem;
-    color: #a2a28a;
+.section3_main h3 {
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0rem 1rem 0;
+  font-size: 2rem;
+  margin-top: 3rem;
+  color: #56564a;
 }
-.section3_main hr{
-    width: 21rem;
-    height: 2px;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
+.section3_main hr {
+  width: 21rem;
+  height: 2px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
 }
-.section3_content{
-    width: 100%;
-    flex-direction: row;
-    margin:40px 0px 50px 0 ;
-    padding: 40px 0px 50px 0;
-    justify-content: center;
-    display: flex;
+.section3_content {
+  width: 100%;
+  flex-direction: row;
+  margin: 40px 0px 50px 0;
+  padding: 40px 0px 50px 0;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
 }
-.box1,.box2,.box3{
-    margin-right: 3rem;
+.box1,
+.box2,
+.box3 {
+  margin-right: 3rem;
+  margin-bottom: 1rem;
 }
-.section3_main .orderNow{
-    width: 7rem;
-    height: 2rem;
-    border: none;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: -3rem;
+
+.section3_main .orderNow {
+  width: 7rem;
+  height: 2rem;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -3rem;
+  color: #56564a;
 }
-.section3_quotes{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.section3_quotes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.section3_quotes p{
-    font-size: 1.4rem;
-    color: #94947c;
+.section3_quotes p {
+  font-size: 1.4rem;
+  color: #94947c;
+  font-weight: bold;
+  margin: 20px 15px 0px 15px;
+}
+.section3_quotes::after {
+  content: "- Leo Tolstoy";
+  position: relative;
+  top: 3rem;
+  right: 4rem;
+  font-size: 1rem;
+  color: #94947c;
+  font-weight: bold;
+}
+@media screen and (max-width: 1110px) {
+  .box4 {
+    margin-right: 3rem !important;
+  }
 }
