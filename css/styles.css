@@ -10,14 +10,14 @@
   /* font-family: "Josefin Sans", sans-serif; */
 }
 .section1 {
-  height: 114vh;
+  height: 104vh;
   color: white;
   display: flex;
 }
 
 .section2 {
   height: 114vh;
-  margin-bottom: 6rem;
+  /* margin-bottom: 6rem; */
     padding: 0 !important;
   
 }
