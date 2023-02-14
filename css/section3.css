@@ -44,3 +44,9 @@
     transform: translate(-50%, -50%);
     margin-top: -3rem;
 }
+.section3_quotes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
