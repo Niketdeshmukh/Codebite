@@ -29,7 +29,17 @@ t1.from(".logo", {
     opacity: 0,
     y: 20,
   })
-  .from(".headline2", {
+  .from(".headline2 ", {
+    opacity: 0,
+    y: 20,
+    duration: 0.2,
+  })
+  .from(".line ", {
+    opacity: 0,
+    y: 20,
+    duration: 0.2,
+  })
+  .from(".headline2 hr ", {
     opacity: 0,
     y: 20,
     duration: 0.2,
@@ -49,12 +59,12 @@ t1.from(".logo", {
     y: 20,
     duration: 0.2,
   })
-  .from(".background-headline", {
-    opacity: 0,
-    y: 20,
-    duration: 0.2,
-    delay:.3
-  })
+//   .from(".background-headline", {
+//     opacity: 0,
+//     y: 20,
+//     duration: 0.2,
+//     delay:.3
+//   })
   .from(".text .text__four", {
     opacity: 0,
     y: 20,
@@ -67,3 +77,12 @@ t1.from(".logo", {
   });
 
   //HANDICRAFT ANIMATION
+const myText = new SplitType('.background-headline')
+
+gsap.to('.char',{
+    opacity:1,
+    y:0,
+    stagger:0.05,
+    delay:1,
+    duration:.1
+})

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Noto+Serif+HK:wght@300;500;700&display=swap');
+.section2{
+    padding: 0 !important;
+  }
+
+.section2_main{
+    display: flex;
+    flex-direction: row;
+    background: url('../images/seection2_bg.jpg') no-repeat center;
+    /* background-size: cover; */
+    
+}
+.section2_main img{
+    position: relative;
+    top: -12rem;
+    left: 6rem;
+}
+.section2_content{
+    width: 29rem;
+    position: relative;
+    left: 11rem;    
+    top: 3rem;
+}
+.section2_content h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+font-size: 28px;
+line-height: 52px;
+}
+.section2_content p{
+    margin-bottom: 1.5rem;
+}
+.section2_num{
+    display: flex;
+    flex-direction: row;
+}
+.section_row 
+{
+    margin: 1rem 4rem 0rem 0rem ;
+}
+.section_row span{
+    font-family: 'Noto Serif HK', serif;
+    /* font-weight: 500; */
+    font-size: 3rem;
+    font-weight: 500;
+}
+.section_row p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 200;
+    font-size: small;
+}
+/* .section2_main::before{
+    content: "02";
+    position: absolute;
+    bottom: 8rem;
+    right: 8rem;
+    font-size: 12rem;
+    color: #e8f3efd2;
+    font-family: 'Noto Serif HK', serif;
+} */
+
