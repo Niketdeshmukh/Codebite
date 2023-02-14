@@ -50,3 +50,7 @@
     align-items: center;
     justify-content: center;
 }
+.section3_quotes p{
+    font-size: 1.4rem;
+    color: #94947c;
+}
