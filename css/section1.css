@@ -96,14 +96,6 @@
   font-size: 100px;
   color: #a37d91;
   opacity: 32%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-}
-=======
-  clip-path: polygon(0 0, 100% 0, 130% 104%, 0 130% );
-=======
-  /* clip-path: polygon(0 0, 100% 0, 130% 104%, 0 130%); */
->>>>>>> 52536fc (section firt half responsive changes)
 }
 
 .sec1half2 {
@@ -172,22 +164,7 @@ li a:hover:not(.active) {
     font-size: 11px;
   }
 }
-<<<<<<< HEAD
 /* .section1::before{
-=======
-
-/* @media screen and (min-width: 1400px) {
-  .background-headline {
-    top: -450px !important;
-    left: 50% !important;
-  }
-} */
-.char {
-  transform: translateY(115px);
-  transition: transform 0.5s;
-}
-/* .section1::before {
->>>>>>> 52536fc (section firt half responsive changes)
   content: "01";
   position: absolute;
   bottom: 4rem;
@@ -197,8 +174,3 @@ li a:hover:not(.active) {
 <<<<<<< HEAD
   font-family: 'Noto Serif HK', serif;
 } */
->>>>>>> 996b36435eac07ea3f37a2f85fb05e28995b0716
-=======
-  font-family: "Noto Serif HK", serif;
-} */
->>>>>>> 52536fc (section firt half responsive changes)
