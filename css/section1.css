@@ -96,11 +96,15 @@
   font-size: 100px;
   color: #a37d91;
   opacity: 32%;
+<<<<<<< HEAD
 }
 
 .sec1half2 {
   background-color: rgb(70, 18, 76, 21%);
   width: 100%;
+=======
+  clip-path: polygon(0 0, 100% 0, 130% 104%, 0 130% ); 
+>>>>>>> 1a82403 (demo commit)
 }
 
 .navbar ul li {
@@ -164,6 +168,7 @@ li a:hover:not(.active) {
     font-size: 11px;
   }
 }
+<<<<<<< HEAD
 /* .section1::before{
   content: "01";
   position: absolute;
@@ -174,3 +179,5 @@ li a:hover:not(.active) {
 <<<<<<< HEAD
   font-family: 'Noto Serif HK', serif;
 } */
+=======
+>>>>>>> 1a82403 (demo commit)
