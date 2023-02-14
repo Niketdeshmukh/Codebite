@@ -33,17 +33,13 @@
   line-height: 30px;
 }
 
-<<<<<<< HEAD
 
-=======
 .section1 {
-  height: 100vh;
   color: white;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 0px;
 }
->>>>>>> refs/remotes/origin/main
 .line {
   width: 30%;
   height: 1px;
