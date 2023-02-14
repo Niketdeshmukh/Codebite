@@ -9,6 +9,11 @@
 
   /* font-family: "Josefin Sans", sans-serif; */
 }
+.section1 {
+  height: 100vh;
+  color: white;
+  display: flex;
+}
 
 .section2 {
   /* background-color: #52c0f3; */
@@ -17,13 +22,16 @@
   margin-bottom: 6rem;
   /* margin: 0px; */
   /* text-align: center; */
+    padding: 0 !important;
+  
 }
 .section3 {
-  background-color: #cbf32b;
+  /* background-color: #cbf32b; */
   height: 100vh;
-  padding: 50px;
+  /* padding: 50px; */
   margin: 0px;
-  text-align: center;
+  /* text-align: center; */
+  background: url('../images/section3_bg.jpg') no-repeat center;
 }
 
 .navbar ul {

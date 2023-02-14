@@ -1,0 +1,22 @@
+.section3_main{
+    display: flex;
+    flex-direction: column;
+}
+.section3_content{
+    width: 100%;
+    flex-direction: row;
+    margin:40px 0px 50px 0 ;
+    padding: 40px 0px 50px 0;
+    justify-content: center;
+    display: flex;
+}
+.box1,.box2,.box3{
+    margin-right: 3rem;
+}
+.section3_main .orderNow{
+    width: 7rem;
+    height: 2rem;
+    /* display: flex; */
+    border-radius: 30px;
+    border: none;
+}

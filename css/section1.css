@@ -33,11 +33,7 @@
   line-height: 30px;
 }
 
-.section1 {
-  height: 100vh;
-  color: white;
-  display: flex;
-}
+
 .line {
   width: 30%;
   height: 1px;
