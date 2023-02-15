@@ -8,7 +8,7 @@
     font-size: 30px !important;
   }
   .headline2 {
-    font-size: 21px !important;
+    font-size: 20px !important;
     line-height: 30px !important;
     width: 28rem !important;
   }
@@ -19,6 +19,9 @@
   .section1_arrow {
     width: 15px !important;
     margin-top: 1px !important;
+  }
+  .section2{
+    height: 100vh !important;
   }
 }
 
@@ -45,14 +48,94 @@
 }
 
 /* SECTION 1 & 2 for 870 px */
-@media screen and (max-width: 870px){
-    
+@media screen and (max-width: 900px){
+  .logo{
+    margin: 30px 0 40px;
+  }
+    .section1{
+      height: 80vh !important;
+    }
+    .headline2{
+      width: 19rem !important;
+    }
+    .section2{
+     height:  37rem !important;
+    }
+    .section2_bg{
+      height: 25vh;
+    }
+    .section2_main img {
+      height: 30rem !important;
+      top: -5rem !important;
+      left: 5rem !important;
+    }
+    .section2_content {
+      width: 17rem !important;
+      margin: 1rem 0 0 7rem !important;
+  }
+  .section2_content hr {
+    width: 16rem !important;
+}
+}
+@media screen and (max-width:865px) {
+  .box1, .box2, .box3 {
+    width: 13rem !important;
+    height: 20rem !important;
+  }
+  .section3_content {
+    margin: 0px 0 0px !important;
+  }
+  .section3_main h3 {
+    margin-top: 7rem !important;
+  }
+  
+  .logo{
+    gap: 6px !important;
+  }
+  .logo h1{
+    font-size: 2rem !important;
+  }
+  .logo img{
+    width: 3rem !important;
+  }
+}
+@media screen and (max-width:770px) {
+  .box1 img,.box2 img,.box3 img{
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+  .box1 ,.box2 ,.box3 {
+    width: 9rem !important;
+    height: 14rem !important;
+  }
+  .section3_quotes {
+    margin-left: 3rem !important;
+  }
+}
+@media screen and (max-width:720px) {
+  .section2_content {
+    margin: 1rem 0 0 5rem !important;
+  }
+  .section2_main img {
+    height: 22rem !important;
+    left: 2rem !important;
+  }
+  .headline2 {
+    width: 17rem !important;
+}
+.headline-para {
+  font-size: 12px !important;
+  line-height: 18px !important;
+}
+.explore-container {
+  margin-top: 34px !important;
+}
 }
 
 /* SECTION 3 */
 @media screen and (max-width: 1250px) {
   .section3 {
-    height: 120vh !important;
+    height: 100vh !important;
   }
 }
 @media screen and (max-width: 1110px) {
