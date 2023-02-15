@@ -5,9 +5,9 @@
 .section3_main h3 {
   display: flex;
   justify-content: center;
-  padding: 4rem 0rem 1rem 0;
+  padding: 3rem 0rem 0rem 0 !important;
   font-size: 2rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
   color: #56564a;
 }
 .section3_main hr {
@@ -33,6 +33,25 @@
 .box3 {
   margin-right: 3rem;
   margin-bottom: 1rem;
+}
+.box1::after,.box2::after,.box3::after,.box4::after{
+ 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+.box1::after{
+  content: "hello";
+}
+.box2::after{
+  content: "hello2";
+}
+.box3::after{
+  content: "hello3";
+}
+.box4::after{
+  content: "hello4";
 }
 
 .section3_main .orderNow {

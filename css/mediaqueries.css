@@ -1,0 +1,65 @@
+/* SECTION 1 */
+@media screen and (max-width: 1280px) {
+  .section1 {
+    height: 110vh !important;
+  }
+  .headline {
+    margin: 0 0 28px !important;
+    font-size: 30px !important;
+  }
+  .headline2 {
+    font-size: 21px !important;
+    line-height: 30px !important;
+    width: 28rem !important;
+  }
+  .headline-para {
+    line-height: 27px !important;
+    font-size: 13px !important;
+  }
+  .section1_arrow {
+    width: 15px !important;
+    margin-top: 1px !important;
+  }
+}
+
+/* SECTION 2 */
+@media screen and (max-width: 1250px) {
+  .section2_content {
+    margin: 1rem 0 0 12rem !important;
+  }
+  .section2_content p {
+    font-size: 13px !important;
+  }
+}
+@media screen and (max-width: 1000px){
+    .section2{
+        height: 100vh !important;
+    }
+ .section2_content {
+    margin: 1rem 0 0 8rem !important;
+    width: 22rem;
+}
+.section2_content hr{
+    width: 20rem !important;
+}
+}
+
+/* SECTION 1 & 2 for 870 px */
+@media screen and (max-width: 870px){
+    
+}
+
+/* SECTION 3 */
+@media screen and (max-width: 1250px) {
+  .section3 {
+    height: 120vh !important;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .section3 .box4 {
+    display: none;
+  }
+  .section3_quotes p {
+    font-size: 1rem !important;
+  }
+}

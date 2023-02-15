@@ -33,22 +33,20 @@
   line-height: 30px;
 }
 
-
 .section1 {
+  height: 100vh;
   color: white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0px 0px;
+  display: flex;
 }
-.line {
+.headline2-container .linee {
   width: 30%;
   height: 1px;
   background-color: #e8d158;
   margin-bottom: 20px;
 }
 .sec1half1 {
-  width: 100%;
-  padding: 1.875em 2.5em;
+  width: 50%;
+  padding: 30px 40px;
   background-color: #46122e;
   display: flex;
   flex-direction: column;
@@ -60,124 +58,51 @@
   margin-top: 60px;
 }
 .explore-container h1 {
-  font-size: 1.5rem;
+  font-size: 25px;
   font-weight: 300;
   margin: 0;
-  margin-right: 0.9rem;
+  margin-right: 15px;
 }
 .mandala {
-  margin-left: 6.5rem;
+  margin-left: 100px;
   border-color: black;
-  background-color: red;
   position: relative;
 }
 .mandala #gmandala {
   position: absolute;
-  top: -10vh;
+  top: -200px;
   z-index: 3;
-  width: 26vw;
-  right: max(-29vw, -480px);
+  width: 400px;
+  right: -500px;
 }
 .mandala #gpot {
   position: absolute;
-  top: -3vh;
-  width: 14vw;
-  right: max(-29vw, -395px);
+  top: -180px;
+  width: 250px;
+  right: -435px;
 }
-
 .background-headline {
   /* transform-origin: bottom;
   transform: rotate(270deg); */
   position: relative;
-  top: -50px;
-  left: 28vw;
+  top: -32rem;
+  left: 400px;
   z-index: 0;
   transform: rotate(-90deg);
-  font-size: 100px;
+  width: 100%;
+  font-size: 60px;
+  height: 100%;
   color: #a37d91;
   opacity: 32%;
-<<<<<<< HEAD
-}
-
-.sec1half2 {
-  background-color: rgb(70, 18, 76, 21%);
-  width: 100%;
-=======
   clip-path: polygon(0 0, 100% 0, 130% 104%, 0 130% ); 
->>>>>>> 1a82403 (demo commit)
 }
-
-.navbar ul li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: rgb(0, 0, 0, 30%);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  color: #f1f1f1b4;
-}
-
-.active {
-  background-color: #b06400;
-}
-
-/* slideshow */
-.slideshow-container {
-  max-width: 400px;
-  max-height: 400px;
-  position: relative;
-  margin: auto;
-}
-.mySlides {
-  display: none;
-}
-.mySlides > img {
-  width: 400px;
-  height: 400px;
-  object-fit: fill;
-}
-
-.active {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: 0.4;
-  }
-  to {
-    opacity: 1;
+@media screen and (min-width:1400px) {
+  .background-headline{
+    /* top: -450px !important;
+  left: -150px !important; */
   }
 }
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {
-    font-size: 11px;
-  }
+.char{
+  transform: translateY(115px);
+  transition: transform .5s;
 }
-<<<<<<< HEAD
-/* .section1::before{
-  content: "01";
-  position: absolute;
-  bottom: 4rem;
-  right: 8rem;
-  font-size: 12rem;
-  color: #fbf7f7b5;
-<<<<<<< HEAD
-  font-family: 'Noto Serif HK', serif;
-} */
-=======
->>>>>>> 1a82403 (demo commit)
