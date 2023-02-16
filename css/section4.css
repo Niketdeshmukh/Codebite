@@ -1,12 +1,30 @@
 .section4 {
-    height: 100vh;
+    height: 104vh;
     width: 100%;
     background-color: #efd7dd;
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-image: url('../images/madala_art/section1.png');
+    background-repeat: no-repeat;
+    /* background-blend-mode: multiply; */
+    background-repeat: space;
+    background-position: center;
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid_main{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.section4_heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
 }
 .parent {
   display: grid;
