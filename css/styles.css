@@ -17,18 +17,10 @@
 
 .section2 {
   height: 100vh;
-    padding: 0 !important;
-  
+  padding: 0 !important;
 }
 .section3 {
   height: 100vh;
   margin: 0px;
-  background: url('../images/section3_bg.jpg') no-repeat center;
-}
-
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  background: url("../images/section3_bg.jpg") no-repeat center;
 }
