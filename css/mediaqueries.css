@@ -3,6 +3,9 @@
   .section3 {
     margin-bottom: -5rem !important;
   }
+  .wrapper{
+    min-height: 70vh !important;
+  }
 }
 @media screen and (max-width: 1280px) {
   .section1 {
