@@ -54,6 +54,18 @@
     margin-top: 2rem !important;
   }
 }
+@media screen  and (min-width:1150px) and (max-width: 1250px ) {
+  .background-headline{
+  width: auto;
+  top: -23rem !important;
+  left: 22rem !important;
+  }
+}
+@media screen  and (max-width:1150px){
+  .background-headline{
+    display: none;
+  }
+}
 @media screen and (max-width: 1000px) {
   .section2 {
     height: 100vh !important;
