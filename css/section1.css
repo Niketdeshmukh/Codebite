@@ -107,6 +107,16 @@
 .navbar ul li a:hover {
   color: #b06400 !important;
 }
+.navbar .login{
+  width: 4rem;
+    height: 1rem;
+    text-align-last: center;
+    display: inline-table;
+    padding: 0.2rem;
+    border: 2px solid #b48ca2;
+    border-radius: 9% 25%;
+
+}
 
 .slideshow-container {
   width: 100%;

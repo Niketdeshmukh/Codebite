@@ -23,3 +23,23 @@ function showSlides() {
   setTimeout(showSlides, 4000); // Change image every 2 seconds
 }
 console.log("working");
+
+
+var circle = document.querySelector(".circle");
+var frame = document.querySelector("#cursor_big ");
+window.addEventListener('mousemove',function(dets){
+  // console.log(dets.clientX,dets.clientY);
+  circle.style.transform = `translate(${dets.clientX}px,${dets.clientY}px)`;
+})
+frame.addEventListener('mousemove',function(dets){
+  gsap.to(circle,{
+    scale:4,
+    
+  })
+})
+frame.addEventListener('mouseleave',function(dets){
+  gsap.to(circle,{
+    scale:1
+  })
+})
+

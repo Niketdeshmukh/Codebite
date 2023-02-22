@@ -6,6 +6,9 @@
   .wrapper{
     min-height: 70vh !important;
   }
+  .wrapper[data-v-1414b9d2] {
+    padding-bottom: 2rem;
+  }
 }
 @media screen and (max-width: 1280px) {
   .section1 {

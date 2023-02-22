@@ -24,3 +24,27 @@
   margin: 0px;
   background: url("../images/section3_bg.jpg") no-repeat center;
 }
+.circle{
+  pointer-events: none;
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  width: 2vw;
+  height: 2vw;
+  background-color:#46122E;
+  transition: all cubic-bezier(0.19,1,0.22,1) .5s;
+  z-index: 1 !important;
+}
+.cursor_big{
+  position: relative !important;
+  z-index: 2 
+  !important;
+}
+#google_translate_element{
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem !important;
+  width: 10% !important;
+}
