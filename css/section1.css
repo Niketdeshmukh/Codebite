@@ -157,12 +157,6 @@
   opacity: 32%;
   clip-path: polygon(0 0, 100% 0, 130% 104%, 0 130% ); 
 }
-@media screen and (min-width: 1400px) {
-  .background-headline {
-    /* top: -450px !important;
-  left: -150px !important; */
-  }
-}
 .char {
   transform: translateY(115px);
   transition: transform 0.5s;
