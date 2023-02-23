@@ -1,3 +1,5 @@
+
+
 var circle = document.querySelector(".circle");
 window.addEventListener("mouseover",function(dets){
   // gsap.to(circle,{
@@ -96,3 +98,4 @@ gsap.to('.char',{
     delay:.1,
     duration:.1
 })
+

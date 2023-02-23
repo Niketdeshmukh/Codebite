@@ -6,6 +6,7 @@ const scroll = new LocomotiveScroll({
   multiplier: 1,
 });
 
+
 let slideIndex = 0;
 showSlides();
 
