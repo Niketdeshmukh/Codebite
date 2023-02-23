@@ -10,6 +10,7 @@
   background-position: center;
   backface-visibility: hidden;
   object-fit: cover;
+  pointer-events: none;
 }
 .section2_main {
   display: flex;
