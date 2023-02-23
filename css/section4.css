@@ -65,12 +65,12 @@
     overflow: hidden;
     z-index: 0;
 }
-.grid_image{
+.grid_image,.box1,.box2,.box3,.box4{
   overflow: hidden;
   inline-size: fit-content;
   object-fit: contain !important;
 }
-.grid_image img{
+.grid_image img,.section3_content.box1 img,.section3_content.box2 img,.section3_content.box3 img,.section3_content.box4 img{
     inline-size: fit-content;
     /* object-fit: contain !important; */
     overflow: hidden;
@@ -112,7 +112,7 @@ font-family: "Noto Serif HK", serif;
 font-weight: 600;
 }
 
-.product_container1 img:hover,.product_container2_grid img:hover{
+.product_container1 img:hover,.product_container2_grid img:hover,.section3_content.box1 img:hover,.section3_content.box2 img:hover,.section3_content.box3 img:hover,.section3_content.box4 img:hover {
   transform: scale(1.06);
   transition: all 1s;
 }

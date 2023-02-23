@@ -98,4 +98,3 @@ gsap.to('.char',{
     delay:.1,
     duration:.1
 })
-
