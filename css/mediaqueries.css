@@ -15,19 +15,23 @@
     height: 110vh !important;
   }
   .headline {
+    color: black;
     margin: 0 0 28px !important;
     font-size: 30px !important;
   }
   .headline2 {
+    color: black;
     font-size: 20px !important;
     line-height: 30px !important;
     width: 28rem !important;
   }
   .headline-para {
+    color: black;
     line-height: 27px !important;
     font-size: 13px !important;
   }
   .section1_arrow {
+    color: black;
     width: 15px !important;
     margin-top: 1px !important;
   }
